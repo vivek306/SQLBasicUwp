@@ -1,2 +1,1 @@
-# SQLBasicUwp
-Basic SQL Server Database for UWP Apps
+# Basic SQL Server Database for UWP Apps
