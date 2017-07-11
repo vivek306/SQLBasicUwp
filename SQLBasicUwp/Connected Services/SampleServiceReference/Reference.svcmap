@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="79fdbf82-e2ee-4ba0-b766-e47c9939382b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:58422/SampleTableService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SampleTableService.xsd" MetadataType="Schema" ID="8877a597-e52c-47ac-acfa-279dddaa94f1" SourceId="1" SourceUrl="http://localhost:58422/SampleTableService.svc?xsd=xsd2" />
+    <MetadataFile FileName="SampleTableService1.xsd" MetadataType="Schema" ID="8d5b7d80-5494-4ad4-8eb0-244317ac5d8a" SourceId="1" SourceUrl="http://localhost:58422/SampleTableService.svc?xsd=xsd1" />
+    <MetadataFile FileName="SampleTableService.wsdl" MetadataType="Wsdl" ID="a46667e2-ceef-47b8-acf0-3d2b78756a1e" SourceId="1" SourceUrl="http://localhost:58422/SampleTableService.svc?wsdl" />
+    <MetadataFile FileName="SampleTableService.disco" MetadataType="Disco" ID="c4f575b3-1e9d-4f1d-b54a-2aad7b3aa48d" SourceId="1" SourceUrl="http://localhost:58422/SampleTableService.svc?disco" />
+    <MetadataFile FileName="SampleTableService2.xsd" MetadataType="Schema" ID="4919a39e-856c-45d5-a8b7-54d9bd45e72d" SourceId="1" SourceUrl="http://localhost:58422/SampleTableService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
